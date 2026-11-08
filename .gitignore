@@ -1,0 +1,28 @@
+# Python virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# System / OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Dataset raw archives (can be downloaded via script)
+data_cache/
+
+# Matplotlib cache
+.matplotlib/
+matplotlib-*/
+
+# Temporary runtime logs
+*.log
